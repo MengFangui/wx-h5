@@ -1156,11 +1156,6 @@ bfj-node4@^5.2.0:
     check-types "^7.3.0"
     tryer "^1.0.0"
 
-big.js@^3.1.3:
-  version "3.2.0"
-  resolved "https://registry.npm.taobao.org/big.js/download/big.js-3.2.0.tgz#a5fc298b81b9e0dca2e458824784b65c52ba588e"
-  integrity sha1-pfwpi4G54Nyi5FiCR4S2XFK6WI4=
-
 big.js@^5.2.2:
   version "5.2.2"
   resolved "https://registry.npm.taobao.org/big.js/download/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
@@ -2332,13 +2327,13 @@ ee-first@1.1.1:
   resolved "https://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-ei-loader@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npm.taobao.org/ei-loader/download/ei-loader-0.1.1.tgz#9d11d0eb9c10b8fd3e9304b77747f11fe89916bd"
-  integrity sha1-nRHQ65wQuP0+kwS3d0fxH+iZFr0=
+ei-loader@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/ei-loader/-/ei-loader-0.2.1.tgz#0cd9d72457203e480d02e37d6b7d60bd85994881"
+  integrity sha512-Kp8Cf7/GABjMOf3Ho5HSHW2D4uQwJsSnzI3XSmXR0AG7HnUY7azWWjxXwHLZgz05taBzT0RACcoyDTBQkPFmcw==
   dependencies:
-    et-improve "^0.1.1"
-    loader-utils "^0.2.15"
+    et-improve "^0.1.3"
+    loader-utils "^1.1.0"
 
 ejs@^2.5.7:
   version "2.7.4"
@@ -2664,7 +2659,7 @@ esutils@^2.0.2:
   resolved "https://registry.npm.taobao.org/esutils/download/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha1-dNLrTeC42hKTcRkQ1Qd1ubcQ72Q=
 
-et-improve@^0.1.1, et-improve@^0.1.3:
+et-improve@^0.1.3:
   version "0.1.3"
   resolved "https://registry.npm.taobao.org/et-improve/download/et-improve-0.1.3.tgz#fa054a5b22bddd26804cf2021a1c7f9aece50459"
   integrity sha1-+gVKWyK93SaATPICGhx/muzlBFk=
@@ -3823,7 +3818,7 @@ json-stable-stringify@^1.0.0, json-stable-stringify@^1.0.1:
   dependencies:
     jsonify "~0.0.0"
 
-json5@^0.5.0, json5@^0.5.1:
+json5@^0.5.1:
   version "0.5.1"
   resolved "https://registry.npm.taobao.org/json5/download/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
   integrity sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
@@ -4007,16 +4002,6 @@ loader-runner@^2.3.0:
   version "2.4.0"
   resolved "https://registry.npm.taobao.org/loader-runner/download/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
   integrity sha1-7UcGa/5TTX6ExMe5mYwqdWB9k1c=
-
-loader-utils@^0.2.15:
-  version "0.2.17"
-  resolved "https://registry.npm.taobao.org/loader-utils/download/loader-utils-0.2.17.tgz#f86e6374d43205a6e6c60e9196f17c0299bfb348"
-  integrity sha1-+G5jdNQyBabmxg6RlvF8Apm/s0g=
-  dependencies:
-    big.js "^3.1.3"
-    emojis-list "^2.0.0"
-    json5 "^0.5.0"
-    object-assign "^4.0.1"
 
 loader-utils@^1.0.2, loader-utils@^1.1.0:
   version "1.2.3"
